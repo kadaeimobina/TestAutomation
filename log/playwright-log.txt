@@ -1,0 +1,134 @@
+{"level":30,"time":"2024-11-22T14:13:07.368Z","pid":78222,"hostname":"mobinakadaei","msg":"Listening on 59247"}
+(node:78222) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-11-22T14:13:08.397Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-11-22T14:13:09.026Z","pid":78222,"hostname":"mobinakadaei","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2024-11-22T14:13:09.027Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-11-22T14:13:09.027Z","pid":78222,"hostname":"mobinakadaei","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-11-22T14:13:09.031Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-11-22T14:13:09.031Z","pid":78222,"hostname":"mobinakadaei","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-11-22T14:13:09.050Z","pid":78222,"hostname":"mobinakadaei","msg":"Changed active context"}
+{"level":30,"time":"2024-11-22T14:13:09.428Z","pid":78222,"hostname":"mobinakadaei","msg":"Video path: undefined"}
+{"level":30,"time":"2024-11-22T14:13:09.428Z","pid":78222,"hostname":"mobinakadaei","msg":"Changed active page"}
+{"level":30,"time":"2024-11-22T14:13:09.815Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method newPage"}
+{"level":30,"time":"2024-11-22T14:13:09.819Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-11-22T14:13:09.823Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-11-22T14:13:09.827Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:09.827Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with [name=recipe_id] in page."}
+{"level":30,"time":"2024-11-22T14:13:09.905Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:09.907Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method selectOption"}
+{"level":30,"time":"2024-11-22T14:13:09.907Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with select#sel_recipe in page."}
+{"level":30,"time":"2024-11-22T14:13:09.954Z","pid":78222,"hostname":"mobinakadaei","msg":"Option entries: 2"}
+{"level":30,"time":"2024-11-22T14:13:09.954Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method selectOption"}
+{"level":30,"time":"2024-11-22T14:13:09.954Z","pid":78222,"hostname":"mobinakadaei","msg":"Selected entries: 1"}
+{"level":30,"time":"2024-11-22T14:13:09.956Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:09.956Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with [class=\"startbutton\"] in page."}
+{"level":30,"time":"2024-11-22T14:13:11.697Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:11.701Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:11.701Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Start exam >> nth=1 in page."}
+{"level":30,"time":"2024-11-22T14:13:13.101Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.105Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.105Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:13.914Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.916Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.916Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:13.959Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.962Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.962Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:13.992Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.996Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:13.996Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.051Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.053Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.053Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.078Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.079Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.079Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.127Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.129Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.129Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.153Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.154Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.154Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.207Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.211Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.211Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.236Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.238Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.238Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.286Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.288Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.288Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.309Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.311Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.311Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.363Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.365Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.365Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.394Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.396Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.396Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.448Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.449Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.449Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.477Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.479Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.479Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.524Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.526Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.526Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.554Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.556Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.556Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.612Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.614Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.614Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with label:has(strong) in page."}
+{"level":30,"time":"2024-11-22T14:13:14.644Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.646Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.646Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Save and continue in page."}
+{"level":30,"time":"2024-11-22T14:13:14.690Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.692Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-22T14:13:14.692Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with [class=\"icon-solid icon-finish\"] in page."}
+{"level":30,"time":"2024-11-22T14:13:30.242Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method click"}
+{"level":30,"time":"2024-11-22T14:13:30.245Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-11-22T14:13:30.245Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with text=Grade in page."}
+{"level":30,"time":"2024-11-22T14:13:36.551Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-11-22T14:13:36.553Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method getText"}
+{"level":30,"time":"2024-11-22T14:13:36.553Z","pid":78222,"hostname":"mobinakadaei","msg":"Strict mode is enabled, find Locator with tr >> td >> nth=0 in page."}
+{"level":30,"time":"2024-11-22T14:13:36.565Z","pid":78222,"hostname":"mobinakadaei","msg":"Retrieved text for element tr >> td >> nth=0 containing 10"}
+{"level":30,"time":"2024-11-22T14:13:36.565Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method getText"}
+{"level":30,"time":"2024-11-22T14:13:36.567Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-11-22T14:13:36.574Z","pid":78222,"hostname":"mobinakadaei","msg":"Removed page=500a8882-4dc3-40f8-b2c9-d118d15d92c6 from context=67a88fa1-90d0-4678-adc7-4e37d001fac9 page stack"}
+{"level":30,"time":"2024-11-22T14:13:36.649Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js:11598:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js:11837:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-11-22T14:13:36.655Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-22T14:13:36.655Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js:11598:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js:11837:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-11-22T14:13:36.659Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-22T14:13:36.659Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-22T14:13:38.679Z","pid":78222,"hostname":"mobinakadaei","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-11-22T14:13:38.679Z","pid":78222,"hostname":"mobinakadaei","msg":"End of node method closeAllBrowsers"}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaf572f6-9f50-417c-a5e8-ff6810ed3576" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestCase/TestCase.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/UITestCases.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UITestCasesLogFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UITestCasesResult.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjectModel/AdvancedSearchPage.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjectModel/AuthorDetailPage.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjectModel/BookCategoryDetailPage.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjectModel/BookDetailPage.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjectModel/HomePage.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjectModel/SearchResultPage.robot" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2p47bDAI6nA8mbwgdrTE2CKcVbv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Robot Framework.run [first test case].executor": "Run",
+    "Robot Framework.run current file.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mobinakadaei/Desktop/Paragin",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaf572f6-9f50-417c-a5e8-ff6810ed3576" name="Changes" comment="" />
+      <created>1732013563051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732013563051</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.9 on darwin)" generated="2024-11-22T15:13:06.922182" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase" source="/Users/mobinakadaei/Desktop/Paragin/TestCase/TestCase.robot">
+<test id="s1-t1" name="Start Exam, Answer All Questions Correctly, and Verify Final Grade" line="14">
+<kw name="Given OpenBrowser.Open Browser" owner="OpenBrowser">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-11-22T15:13:07.052331" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/mobinakadaei/Desktop/Paragin/log/browser/traces/bbb33ce8-e2f5-429a-9066-ed2933dc4c81"}</msg>
+<msg time="2024-11-22T15:13:07.074590" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js using port 59247</msg>
+<msg time="2024-11-22T15:13:07.074933" level="INFO">Node startup parameters: ['node', '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Browser/wrapper/index.js', '59247']</msg>
+<msg time="2024-11-22T15:13:09.027925" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/mobinakadaei/Desktop/Paragin/log/browser/traces/bbb33ce8-e2f5-429a-9066-ed2933dc4c81"}</msg>
+<arg>headless=${headless_status}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-11-22T15:13:07.051963" elapsed="1.976261"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-11-22T15:13:09.816637" level="INFO">Successfully initialized new page object and opened url: https://paragin.remindotoetsdemo.nl/</msg>
+<msg time="2024-11-22T15:13:09.816831" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-11-22T15:13:09.028501" elapsed="0.788448"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-11-22T15:13:09.824321" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>1512</arg>
+<arg>823</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-11-22T15:13:09.817120" elapsed="0.007401"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:07.051554" elapsed="2.773110"/>
+</kw>
+<kw name="When StartAssesment.Select Assesment from Dropdown Menu" owner="StartAssesment">
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:09.825411" level="INFO">Clicks the element '[name=recipe_id]'.</msg>
+<arg>${drop_down_menu_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:09.825127" elapsed="0.080754"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<msg time="2024-11-22T15:13:09.906565" level="INFO">Selects the option(s) 2 by attribute SelectAttribute.value from element select#sel_recipe.</msg>
+<arg>${assesment_locator}</arg>
+<arg>value</arg>
+<arg>2</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:09.906100" elapsed="0.049095"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:09.955823" level="INFO">Clicks the element '[class="startbutton"]'.</msg>
+<arg>${start_button_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:09.955407" elapsed="1.742849"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:09.824881" elapsed="1.873709"/>
+</kw>
+<kw name="And InstructionPage.Click Start exam Button in Instruction Page" owner="InstructionPage">
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:11.700337" level="INFO">Clicks the element 'text=Start exam &gt;&gt; nth=1'.</msg>
+<arg>${start_button_instruction_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:11.699704" elapsed="1.402295"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:11.699012" elapsed="1.403239"/>
+</kw>
+<kw name="And QuestionsPage.Select Correct Answer for all 10 Questions" owner="QuestionsPage">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:13.103553" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:13.103241" elapsed="0.811879"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:13.915638" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:13.915306" elapsed="0.045354"/>
+</kw>
+<var name="${question_number}">0</var>
+<status status="PASS" start="2024-11-22T15:13:13.103059" elapsed="0.857733"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:13.961485" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:13.961086" elapsed="0.033812"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:13.996043" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:13.995080" elapsed="0.057153"/>
+</kw>
+<var name="${question_number}">1</var>
+<status status="PASS" start="2024-11-22T15:13:13.960927" elapsed="0.091408"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.052966" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.052600" elapsed="0.025994"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.079046" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.078761" elapsed="0.049219"/>
+</kw>
+<var name="${question_number}">2</var>
+<status status="PASS" start="2024-11-22T15:13:14.052453" elapsed="0.075639"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.128628" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.128338" elapsed="0.025382"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.154196" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.153897" elapsed="0.054471"/>
+</kw>
+<var name="${question_number}">3</var>
+<status status="PASS" start="2024-11-22T15:13:14.128210" elapsed="0.080964"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.210674" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.210058" elapsed="0.027339"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.237890" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.237582" elapsed="0.050017"/>
+</kw>
+<var name="${question_number}">4</var>
+<status status="PASS" start="2024-11-22T15:13:14.209690" elapsed="0.078017"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.288201" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.287940" elapsed="0.022206"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.310823" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.310369" elapsed="0.053574"/>
+</kw>
+<var name="${question_number}">5</var>
+<status status="PASS" start="2024-11-22T15:13:14.287820" elapsed="0.076237"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.364562" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.364291" elapsed="0.030725"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.395472" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.395185" elapsed="0.053502"/>
+</kw>
+<var name="${question_number}">6</var>
+<status status="PASS" start="2024-11-22T15:13:14.364172" elapsed="0.084620"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.449305" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.449031" elapsed="0.029130"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.478626" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.478335" elapsed="0.046947"/>
+</kw>
+<var name="${question_number}">7</var>
+<status status="PASS" start="2024-11-22T15:13:14.448907" elapsed="0.076483"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.525886" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.525617" elapsed="0.029604"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.555720" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.555400" elapsed="0.057199"/>
+</kw>
+<var name="${question_number}">8</var>
+<status status="PASS" start="2024-11-22T15:13:14.525498" elapsed="0.087210"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.613423" level="INFO">Clicks the element 'label:has(strong)'.</msg>
+<arg>${correct_answer_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.612961" elapsed="0.031971"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.645395" level="INFO">Clicks the element 'text=Save and continue'.</msg>
+<arg>${save_and_continue_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.645106" elapsed="0.045426"/>
+</kw>
+<var name="${question_number}">9</var>
+<status status="PASS" start="2024-11-22T15:13:14.612835" elapsed="0.077799"/>
+</iter>
+<var>${question_number}</var>
+<value>${for_loop_value}</value>
+<status status="PASS" start="2024-11-22T15:13:13.102829" elapsed="1.587851"/>
+</for>
+<status status="PASS" start="2024-11-22T15:13:13.102495" elapsed="1.588271"/>
+</kw>
+<kw name="And FinishPage.Tap on Finish Button" owner="FinishPage">
+<kw name="Click" owner="Browser">
+<msg time="2024-11-22T15:13:14.691387" level="INFO">Clicks the element '[class="icon-solid icon-finish"]'.</msg>
+<arg>${finish_button_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:14.691130" elapsed="15.552375"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:14.690928" elapsed="15.552766"/>
+</kw>
+<kw name="And FinishPage.Wait for the Table to Appear" owner="FinishPage">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-11-22T15:13:36.552038" level="INFO">Waited for Element with selector text=Grade at state visible</msg>
+<arg>${table_element_locator}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-11-22T15:13:30.244095" elapsed="6.308108"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:30.243871" elapsed="6.308434"/>
+</kw>
+<kw name="Then FinishPage.Validate if the Grade is &quot;10&quot;" owner="FinishPage">
+<kw name="Get Text" owner="Browser">
+<msg time="2024-11-22T15:13:36.566031" level="INFO">Text: '10'</msg>
+<msg time="2024-11-22T15:13:36.566175" level="INFO">${grade_number} = 10</msg>
+<var>${grade_number}</var>
+<arg>${grade_value_locator}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2024-11-22T15:13:36.552721" elapsed="0.013560"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-22T15:13:36.566585" level="INFO">10</msg>
+<arg>${grade_number}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-22T15:13:36.566426" elapsed="0.000205"/>
+</kw>
+<kw name="Should Be Equal As Numbers" owner="BuiltIn">
+<arg>${grade_number}</arg>
+<arg>${grade_expectation}</arg>
+<doc>Fails if objects are unequal after converting them to real numbers.</doc>
+<status status="PASS" start="2024-11-22T15:13:36.566703" elapsed="0.000136"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:36.552500" elapsed="0.014391"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2024-11-22T15:13:36.649679" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-22T15:13:36.567008" elapsed="0.082845"/>
+</kw>
+<status status="PASS" start="2024-11-22T15:13:07.051109" elapsed="29.599114"/>
+</test>
+<status status="PASS" start="2024-11-22T15:13:06.929770" elapsed="29.726663"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCase">TestCase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
