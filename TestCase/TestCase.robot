@@ -6,10 +6,6 @@ Resource            ../pageObjectModel/QuestionsPage.robot
 Resource            ../pageObjectModel/StartAssesment.robot
 Test Teardown       Close Browser
 
-*** Variables ***
-${headless_status}      ${False}
-${url}                  https://paragin.remindotoetsdemo.nl/
-
 *** Test Cases ***
 Start Exam, Answer All Questions Correctly, and Verify Final Grade
     Given OpenBrowser.Open Browser
