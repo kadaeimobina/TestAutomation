@@ -18,8 +18,8 @@ Follow these steps to set up the project on your machine:
 
 ## 1. Clone the Repository:
 
-    git clone https://github.com/kadaeimobina/ParaginProject.git
-    cd ParaginProject
+    git clone https://github.com/kadaeimobina/TestAutomation.git
+    cd TestAutomation
 
 ## 2. Install Dependencies:
     pip install robotframework
