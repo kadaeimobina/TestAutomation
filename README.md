@@ -49,7 +49,7 @@ Here's an overview of how I implemented this approach:
 
 ## 2. Modularized Variables
 
-  I have centralized all variables in the keyword files instead of including them in the test case files, promoting cleaner code and better separation of concerns. This structure makes it easier to test different scenarios with varying inputs and simplifies updates when web elements change, as modifications are confined to the relevant page object. Additionally, by using variables to dynamically name my test cases, I can easily update test case names by simply changing the value of a variable, ensuring consistency and simplifying maintenance.
+  I have centralized all variables in the keyword files instead of including them in the test case files, promoting cleaner code and better separation of concerns. This structure makes it easier to test different scenarios with varying inputs and simplifies updates when web elements change, as modifications are confined to the relevant page object.
 
 
 ## 3. Testing with Robot Framework, Playwright and Python:
