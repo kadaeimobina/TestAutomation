@@ -23,10 +23,10 @@ Before running the tests, ensure that you have the following installed:
    curl -O https://bootstrap.pypa.io/get-pip.py
    ```
 
-    **- For Windows Run:**
-   	```sh
-   	python get-pip.py
-   	```
+    **For Windows Run:**
+    ```sh
+    python get-pip.py
+    ```
 
    	**For Mac run:**
    	```sh
