@@ -33,11 +33,7 @@ Before running the tests, ensure that you have the following installed:
    python3 get-pip.py
    ```
 
-## Robot Framework
-## Playwright libraries for browser automation (Which is Browser Library in Robot Framework)
-
-You can install the required libraries by running the following commands:
-
+To install Robot Framework and Playwright libraries, follow these steps:
 
 **Installation Guide**
 
