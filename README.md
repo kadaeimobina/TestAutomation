@@ -22,7 +22,8 @@ Before running the tests, ensure that you have the following installed:
    ```sh
    curl -O https://bootstrap.pypa.io/get-pip.py
    ```
-      **- For Windows Run:**
+
+    **- For Windows Run:**
    	```sh
    	python get-pip.py
    	```
