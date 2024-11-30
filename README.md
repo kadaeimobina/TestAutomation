@@ -6,12 +6,12 @@ Before running the tests, ensure that you have the following installed:
 
 ## Python (version 3.x):
 
-   **For Mac:**
+   **- For Mac:**
    ```sh
    brew install python
    ```
 
-   **For Windows:**
+   **- For Windows:**
    ```sh
    winget install --id Python.Python.3
    ```
@@ -33,8 +33,8 @@ Before running the tests, ensure that you have the following installed:
    python3 get-pip.py
    ```
 
-- Robot Framework
-- Playwright libraries for browser automation (Which is Browser Library in Robot Framework)
+## Robot Framework
+## Playwright libraries for browser automation (Which is Browser Library in Robot Framework)
 
 You can install the required libraries by running the following commands:
 
