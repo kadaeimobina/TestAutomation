@@ -4,14 +4,19 @@
 
 Before running the tests, ensure that you have the following installed:
 
-- Python (version 3.x)
+- Python (version 3.x):
+
    **For Mac:**
+   ```sh
    brew install python
+   ```
 
    **For Windows:**
+   ```sh
    winget install --id Python.Python.3
+   ```
 
-- pip (Python package manager)
+- pip (Python package manager):
    **Open a terminal and run:**
    curl -O https://bootstrap.pypa.io/get-pip.py
 
