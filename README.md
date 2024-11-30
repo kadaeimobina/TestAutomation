@@ -17,14 +17,21 @@ Before running the tests, ensure that you have the following installed:
    ```
 
 - pip (Python package manager):
+
    **Open a terminal and run:**
+   ```sh
    curl -O https://bootstrap.pypa.io/get-pip.py
+   ```
 
    **For Windows Run:**
+   ```sh
    python get-pip.py
+   ```
 
    **For Mac run:**
+   ```sh
    python3 get-pip.py
+   ```
 
 - Robot Framework
 - Playwright libraries for browser automation (Which is Browser Library in Robot Framework)
