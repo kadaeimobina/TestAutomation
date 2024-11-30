@@ -5,7 +5,22 @@
 Before running the tests, ensure that you have the following installed:
 
 - Python (version 3.x)
+   **For Mac:**
+   brew install python
+
+   **For Windows:**
+   winget install --id Python.Python.3
+
 - pip (Python package manager)
+   **Open a terminal and run:**
+   curl -O https://bootstrap.pypa.io/get-pip.py
+
+   **For Windows Run:**
+   python get-pip.py
+
+   **For Mac run:**
+   python3 get-pip.py
+
 - Robot Framework
 - Playwright libraries for browser automation (Which is Browser Library in Robot Framework)
 
@@ -19,11 +34,12 @@ Follow these steps to set up the project on your machine:
 ## 1. Clone the Repository:
 
     git clone https://github.com/kadaeimobina/TestAutomation.git
-    cd TestAutomation
+    cd TestAutomation/TestCase
 
 ## 2. Install Dependencies:
-    pip install robotframework
-    pip install robotframework-browser
+    pip3 install robotframework
+    pip3 install robotframework-browser
+    rfbrowser init 
 
 ## 3. Running the Tests (For UI Testing):
 
